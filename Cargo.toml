@@ -1,0 +1,13 @@
+[package]
+name = "strings"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+derive_builder = "0.20.1"
+regex = "1.10.6"
+serde = { version = "1.0.209" , features = ["derive"] }
+syntree = "0.17.4"
+thiserror = "1.0.63"
+
